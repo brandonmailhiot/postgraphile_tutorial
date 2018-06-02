@@ -41,5 +41,5 @@ alter table forum.post add column updated_at timestamp default now();
 -- grant roles
 \i roles/grant.pgsql
 
--- create row-level security policies
-\i roles/policy.pgsql
+-- create security policies
+\i policies/row.pgsql
